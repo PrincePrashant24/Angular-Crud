@@ -1,0 +1,28 @@
+
+.he{
+    height: 550px;
+}
+@media screen and (max-width: 580px) {
+    .he{
+        
+        height: 600px ;
+
+    }
+    
+  }
+  @media screen and (max-width: 850px) {
+    .he{
+        
+        height: 600px ;
+
+    }
+    
+  }
+  @media screen and (max-width: 912px) {
+    .he{
+        
+        height: 600px ;
+
+    }
+    
+  }

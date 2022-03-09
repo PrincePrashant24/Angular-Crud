@@ -1,0 +1,36 @@
+
+<div class="overflow-auto he" style="background-color: #F8F9FA;">
+    <div class="container w-50 mt-4">
+      <div class="text-center">
+        <h2 class="text-center fw-bold">Registration Page</h2>  
+        <div class="d-flex justify-content-center">
+            <div class="bg-success h"></div>
+          </div>
+      </div>
+      <form #myTemplateVar="ngForm">
+      <div class="mb-3 mt-4">
+        <label for="exampleFormControlInput1" class="form-label" >Full Name</label>
+        <input type="text" class="form-control"  name="name" [(ngModel)]= "userObj.name">
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Email</label>
+        <input type="email" class="form-control" name="email" placeholder="name@example.com" [(ngModel)]= "userObj.email">
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Password</label>
+        <input type="text" class="form-control" name="pasword" [(ngModel)]= "userObj.pasword">
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Confirm Password</label>
+        <input type="email" class="form-control" name="confirmPasword" [(ngModel)]= "userObj.confirmPasword">
+      </div>
+      <div class="d-grid gap-2">
+        
+        <button class="btn btn-primary" type="button" (click)="update()" >Update</button>
+    
+      </div>
+    </form>
+  </div>
+  
+    </div>
+   

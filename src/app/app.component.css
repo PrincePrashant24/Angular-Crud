@@ -1,0 +1,41 @@
+.sidenav{
+    width: 25%;
+    height: 91.5vh;
+}
+.d-flex{
+    display: flex;
+}
+.h{
+    height: 20px;
+}
+@media screen and (max-width: 580px) {
+    .sidenav{
+        width: 100%;
+        height: auto;
+
+    }
+    .d-flex{
+        display: flex;
+        flex-direction: column;
+    }
+  }
+  @media screen and (max-width: 850px) {
+    .sidenav{
+        width: 100%;
+        height: auto;
+    }
+    .d-flex{
+        display: flex;
+        flex-direction: column;
+    }
+  }
+  @media screen and (max-width: 912px) {
+    .sidenav{
+        width: 100%;
+        height: auto;
+    }
+    .d-flex{
+        display: flex;
+        flex-direction: column;
+    }
+  }

@@ -1,0 +1,46 @@
+{
+  "users": [
+    {
+      "name": "Prince",
+      "email": "lklk",
+      "pasword": "lkll",
+      "confirmPasword": "lklk",
+      "id": 3
+    },
+    {
+      "name": "opp",
+      "email": "poppo",
+      "pasword": "popop",
+      "confirmPasword": "popp",
+      "id": 4
+    },
+    {
+      "name": "prashant",
+      "email": "rockstarprashant.24@gmail.com",
+      "pasword": "kkkk",
+      "confirmPasword": "prince@23",
+      "id": 6
+    },
+    {
+      "name": "rahul",
+      "email": "uic.20mca1328@gmail.com",
+      "pasword": "ppp",
+      "confirmPasword": "ppp",
+      "id": 7
+    },
+    {
+      "name": "puja",
+      "email": "b@gmail.com",
+      "pasword": "ppp",
+      "confirmPasword": "ppp",
+      "id": 8
+    },
+    {
+      "name": "ramesh ji",
+      "email": "uic@gmail.com",
+      "pasword": "kkkk",
+      "confirmPasword": "kkkk",
+      "id": 9
+    }
+  ]
+}
